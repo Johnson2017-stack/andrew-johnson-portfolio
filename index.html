@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew Johnson Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3256397393.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- ----------Header---------- -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi, I'm<span> Andrew Johnson</span><br> from Washington State</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------------about---------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello Friends! I am a software engineer from washington state, I live in yakima WA. Right now I
+                        am in classes at Skillspire where I am learning Full Stack MERN Software development. In high
+                        school I studied Web design for 2 years and graduated in 2010, I have tried to pursue my BS/BA
+                        in computer Science and Web Development but was working 80 hour weeks in Hurricane Relief and
+                        could not keep up with classes, now I am in a spot in life that I will complete this bootcamp at
+                        Skillspire and then pursue my AA in computer Science once I have become part of a developing
+                        team. I look forward to chatting with you about projects, Learning more about the industry, and
+                        becoming a valuable memeber of your team!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>HTML</span><br>Software Development with HTML, CSS, UI/UX and Javascript</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Johnson's Home Improvments</span><br>Front end Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>New Market Skills Ceneter</span><br>Studied Web design-2 Years</li>
+                            <li><span>Art Institue of Seattle</span><br>Studied BA of Web design-6 Months</li>
+                            <li><span>CTU</span><br>Studied BS of Computer Science-6 Months</li>
+                            <li><span>Skillspire</span><br>Full Stack MERN software development bootcamp "Studying"</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- --------services-------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Designing you a web interface that suits your needs</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX</h2>
+                    <p>Design for your Web and Web App interfaces</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>Wether it is an app on your computer or an app on your phone, they will work smoothly!</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------portfolio---------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Portfolio</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.jpg">
+                    <div class="layer">
+                        <h3>Skillspire week 1</h3>
+                        <p>This is my first weeks homework from Skillspire</p>
+                        <a href="https://github.com/Johnson2017-stack/skillspire-week1-homework.git"><i
+                                class="fa-sharp fa-solid fa-code-branch"></i></a>
+                        <a href=" https://johnson2017-stack.github.io/skillspire-week1-homework/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.jpg">
+                    <div class="layer">
+                        <h3>Repo</h3>
+                        <p>My first Repo</p>
+                        <a href="https://github.com/Johnson2017-stack/FIRST-REPO.git"><i
+                                class="fa-sharp fa-solid fa-code-branch"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Johnson Home Improvements</h3>
+                        <p>Front End Development for a client</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-code-branch"></i></a>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- -------------contact------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <div class="sub-title">Contact Me</div>
+                    <p><i class="fa-solid fa-paper-plane"></i> andrew.k.johnson228@gmail.com</p>
+                    <p><i class="fa-solid fa-mobile-screen"></i> 303-210-4112</p>
+                    <p>PO Box 755 Moxee,Wa 98936</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/andrew-johnson-24aaa223a/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://johnson2017-stack.github.io/andrew-johnson-portfolio/"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://github.com/Johnson2017-stack/andrew-johnson-portfolio.git"><i class="fa-sharp fa-solid fa-code-branch"></i></a></a>
+                        <a href="https://www.facebook.com/profile.php?id=100005210734740"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="images/cv-Andrew-Johnson-Tech.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" row="6" placeholder="Your Meassage"></textarea>
+                        <Button type="submit" class="btn btn2">Submit</Button>
+                    </form>
+                    <div id="msg"></div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ Andrew. Made with <i class="fa-solid fa-heart"></i> Knowledge</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <Script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </Script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzvoXRtXodixuxzSFWhbWqUW_SNtHgkBOf48BbXxJdl3CrBTmF_kZAqTMHB5wgeTniG/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Recieved!"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
